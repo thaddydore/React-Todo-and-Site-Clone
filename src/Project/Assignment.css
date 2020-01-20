@@ -1,0 +1,260 @@
+/* Top bar css starts */
+.TopBar{
+    background-color: #2077BA;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
+.image{
+    width: 20px;
+    height: 13px;
+}
+.anchor{
+    color: #FFFFFF;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed';
+}
+.anchor:hover{
+    text-decoration: underline;
+}
+/* Top bar css ends  */
+
+/* afterfooter styling starts here  */
+.afterfooterdiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+.afterfooter{
+    border: 1px solid  #FF6422;;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    color: #FF6422;
+    font-family: 'Roboto', 'Condensed';
+    text-decoration: none; 
+}
+.afterfooter:hover{
+    color: white;
+    background-color:  #FF6422;
+}
+.afterfooterp{
+    color: #472278;
+    font-family: 'Roboto', 'Condensed';
+    align-self: center;
+}
+.test{
+    padding-left: 33px;
+}
+/* afterfooter styling ends here  */
+
+/* subheader styling starts here  */
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.bbd {
+    height:100px;
+    display: flex;
+    width:100%;
+}
+.right{
+    height:85px;
+    width:30%;
+    background-color: rgb(27, 10, 48);
+}
+.right div{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height:40px;
+    width:70%;
+    margin:10% 30% 10% 10%
+}
+.right div p{
+    margin:0;
+    padding:0;
+}
+.right div p span{
+    color:rgb(184, 169, 169);
+    margin:0;
+    padding:0;
+
+}
+.right div p a{
+    color:white;
+    text-decoration:none;
+}
+.left{
+    height:85px;
+    width: 10%;
+
+}
+.srchlogo {
+    width:50px;
+    height:30px;
+    color: #C7C0CE;
+
+}
+.srchlogo:hover{
+    color:red;
+}
+.ul{
+    margin:0;
+    padding:10px 0 ;
+    display:flex;
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+.ul li {
+    margin-right:15px;
+    color: #C7C0CE;
+}
+.mid {
+    width: 60%;
+    color:white;
+    padding:0 30px;
+    background-color: rgb(51, 25, 75);
+    height:85px;
+}
+.mid p {
+    margin:8px;
+    display: flex;
+    justify-content: space-between;
+}
+.mid p input {
+    border:none;
+    background-color: rgb(51, 25, 75);
+    color:white;
+}
+.imagesub{
+    height:85px;
+    width: 135px;
+}
+/* subheader styling ends here  */
+
+/* Footer Css starts here */
+.footerDiv{
+    background-color: #2077BA;
+    color: #FFFFFF;
+    padding: 20px 0px;
+    font-size: 16px;
+    font-family: 'Proxima Nova', 'Sans-serif';
+    display: flex;
+    justify-content: space-between;
+}
+.imagetech{
+    margin:5px 0px 5px 15px;
+}
+.businessContinuity{
+    display: flex;
+}
+.businessContinuity a .icon1{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    color: #333333;
+}
+.businessContinuity a span{
+    color: #FFFFFF;
+    font-family: 'Proxima Nova', 'Sans-serif';
+    font-size: 14px;
+    margin-left: 20px;
+}
+.businessContinuity a {
+    text-decoration: none;
+}
+.businessContinuity a span:hover{
+    color: rgb(207, 201, 201);
+}
+.quickGlossary{
+    display: flex;
+}
+.quickGlossary a .icon2{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    color: #333333;
+}
+.quickGlossary a span{
+    color: #FFFFFF;
+    font-family: 'Proxima Nova', 'Sans-serif';
+    font-size: 14px;
+    margin-left: 20px;
+}
+.quickGlossary a {
+    text-decoration: none;
+}
+.quickGlossary a span:hover{
+    color: rgb(207, 201, 201);
+}
+.budgetReport{
+    display: flex;
+    justify-content: space-around;
+}
+.budgetReport a .icon3{
+    width: 40px;
+    height: 40px;
+    /* margin-left: 15px; */
+    color: #333333;
+}
+.budgetReport a span{
+    color: #FFFFFF;
+    font-family: 'Proxima Nova', 'Sans-serif';
+    font-size: 14px;
+    /* margin-left: 20px; */
+}
+.budgetReport a {
+    text-decoration: none;
+}
+.budgetReport a span:hover{
+    color: rgb(207, 201, 201);
+}
+.development{
+    display: flex;
+    margin-top: 10px
+}
+.development a .icon4{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+    color: #333333;
+}
+.development a span{
+    color: #FFFFFF;
+    font-family: 'Proxima Nova', 'Sans-serif';
+    font-size: 14px;
+    margin: 20px;
+}
+.development a {
+    text-decoration: none;
+}
+.development a span:hover{
+    color: rgb(207, 201, 201);
+}
+.flexMe{
+    display: flex;
+    justify-content: space-between;
+}
+.footerli{
+    list-style: none;
+    margin: 10px;
+    font-size: 14px;
+
+}
+.footerli a:hover{
+    color: rgb(207, 201, 201);
+}
+.footerli li{
+    margin: 0px 0px 15px;
+}
+hr{
+    width: 90px;
+}
